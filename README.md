@@ -85,4 +85,3 @@ When users are selecting their coach for the session, they will be able to click
 [Gradient Overlay](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/)
 
 [Authentication](https://git.generalassemb.ly/SEI-06-Bahrain/SEI-Info/tree/main/Lessons/Week08/Day02/u3_lesson_react_auth)
-# GAME-ON-Front-End

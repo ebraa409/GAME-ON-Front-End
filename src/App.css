@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+
+html, body,#app,#root{
+  margin: 0;
+  position: relative;
+  height: 100%;
+  color: rgb(240, 240, 240);
+  background-color: rgb(48, 48, 48);
+  scroll-behavior: smooth;
+
+}
+
+
+header{
+  background-color: rgb(57, 57, 57);
+  z-index: 8;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1:hover {
+  
+  color: rgb(11, 216, 11);
+  text-shadow: 2px 2px 5px ;
+
+}
+
+header h3{
+  white-space: nowrap;
+  margin-right: 5px;
+  width: 100%;
+  display: flex;
+}
+
+header .header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+  padding: 30px;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-family: 'Teko', sans-serif;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+
+main{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+section h1{
+  font-size: 65px;
+  margin: 25px;
+}
+
+.content h2{
+  font-size: 80px;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.content h1{
+  font-size: 100px;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+
+}
+
+section p{
+  width: 50%;
+  margin: 30px;
+  font-size: 30px;
+
+}
+
+#Book-session{
+  overflow: hidden;
+  font-family: 'Teko', sans-serif;
+
+
+}
+video {
+  width: 100%;
+  height: 100%;
+  width: 177.77777778vh; /* 100 * 16 / 9 */
+  min-width: 100%;
+  min-height: 56.25vw; /* 100 * 9 / 16 */
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;  
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.75), #1A1A1A);
+
+}
+.content2 {
+  padding: 20px;
+  padding-top: 50px;
+  height: 100%;
+  align-items: center;
+  color: white;  
+  background-image: linear-gradient(to top, rgba(0,0,0,0.15), #1A1A1A);
+
+}
+
+.content a{
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  margin: 25px;
+}
+
+#why{
+  background-color: #202020;
+  background: url('../src/assets/bg2.png');
+  font-family: 'Teko', sans-serif;
+
+}
+
+#about{
+  background-image: url('../src/assets/Firefly gaming coaching platform 77057.png');
+  background-size:cover;
+  font-family: 'Teko', sans-serif;
+
+
+}
+
+#our-coaches{
+  background-color: #262626;
+}
+
+footer{
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000e22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #102c3a;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #13184e;
+}
+
+.full-page{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.full-page form{
+  height: 100vh;
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Teko', sans-serif;
+
+}
+
+form button{
+  align-self: flex-end;
+}
+
+#logout-button{
+  align-self: self-end;
+  margin: 100px;
+  position: absolute;
+  top:0;
+}
+
+.userInfo {
+  padding: 20px;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.Schedule {
+  width: 80%;
+  margin: 20px ;
+  border-collapse: collapse;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  
+}
+
+
+
+tr {
+border: 5px solid black;  
+
+}
+td {
+  padding: 10px;
+  text-align: center;
+  border: 5px solid black;
+  
+}
+
+.details {
+  padding-top: 10px;
+  
+}
+.tableformat {
+  color: rgb(11, 216, 11)
+}
+
+.userInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.userInfo h2 {
+  align-self: flex-start;
+  padding-left: 20px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.signinh1 {
+  font-size: 70px;
+  font-family: 'Teko', sans-serif;
+  margin-top: 10px;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.signupform {
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.signinlabel {
+font-size: 40px;
+font-family: 'Teko', sans-serif;
+
+}
+
+.signupform {
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.signuph1 {
+  font-size: 70px;
+  font-family: 'Teko', sans-serif;
+  margin-top: 10px;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  font-family: 'Teko', sans-serif;
+  
+}
+
+
+#profilep {
+  background-size:cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.15), #1A1A1A), url('../src/assets/the-dream-gaming-room-mgghnz5kfbvzcoj5.jpeg') ;
+  
+
+}
+
+#comment{
+  font-size: 25px;
+}
